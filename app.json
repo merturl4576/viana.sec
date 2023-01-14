@@ -1,0 +1,22 @@
+{
+    "name": "vianabomb",
+    "description": "SMS Bomber",
+    "repository": "insta:merturl4576",
+    "env": {
+        "TOKEN": {
+            "description": "Telegram Botunun Token'ı: ",
+            "required": true
+        }
+    },
+    "formation": {
+    "worker": {
+      "quantity": 1,
+      "size": "eco"
+    }
+  },
+    "buildpacks": [
+        {
+            "url": "heroku/python"
+        }
+    ]
+}
